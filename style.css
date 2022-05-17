@@ -1,0 +1,101 @@
+.main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar{
+   
+    color: aliceblue
+;
+min-width: 300px;
+padding: 20px;
+margin: 10px;
+}
+.text{
+    color: black;
+    font-size: 1.8rem;
+    margin-bottom: 2px;
+}
+.amount_holder{
+    font-size: 2rem;
+    color: green;
+}
+.container {
+    border: 2px solid black;
+   
+}
+.form{
+    background-color: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.form p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+lable,input {
+    display: block;
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.radio{
+    display: flex;
+    align-items: center;
+}
+#amount{
+    padding: 5px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    background-color: lightsalmon;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 7px;
+}
+.name{
+    padding: 5px;
+}
+.heading{
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+ul{
+    list-style: none;
+}
+.transaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.income{
+    background-color: lightblue;
+}
+.expense {
+    background-color: tomato;
+}
+.right-side{
+    display: flex;
+    gap: 5px;
+}
